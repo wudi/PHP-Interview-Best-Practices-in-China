@@ -213,5 +213,6 @@
    * PHP VS Golang
    * PHP VS Python
    * PHP VS JAVA
-
+* 了解 PHP 扩展开发
+* 熟练掌握 C
 
