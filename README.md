@@ -40,13 +40,13 @@
 * 依赖注入实现原理
 * 如何异步执行命令
 * 模板引擎是什么，解决什么问题、实现原理（Smarty、Twig、Blade）
-* 如何实现链式操作 $obj->w()->m()->d();
+* 如何实现链式操作 `$obj->w()->m()->d();`
 * Xhprof 、Xdebug 性能排除工具使用
 
 ## 实践篇
 * 给定二维数组，根据某个字段排序
 * 如何判断上传文件类型，如：仅允许 jpg 上传
-* 不使用临时变量交换两个变量的值 $a=1; $b=2;  =>  $a=2; $b=1
+* 不使用临时变量交换两个变量的值 `$a=1; $b=2;`  =>  `$a=2; $b=1;`
 * strtoupper 在转换中文时存在乱码，你如何解决？ echo strtoupper(‘ab你好c’);
 * Websocket、Long-Polling、Server-Sent Events(SSE) 区别
 * “Headers already sent” 错误是什么意思，如何避免
@@ -139,7 +139,13 @@
 * Yaf、Phalcon（C 扩展系）
 * Yii、Laravel、Symfony（纯 OOP 系列）
 * Swoole、Workerman （网络编程框架）
-* 对比框架区别
+* 对比框架区别几个方向点
+    * 是否纯 OOP
+    * 类库加载方式（自己写 autoload 对比 composer 标准）
+    * 易用性方向（CI 基础框架，Laravel 这种就是高开发效率框架以及基础组件多少） 
+    * 黑盒（相比 C 扩展系）
+    * 运行速度（如：Laravel 加载一大堆东西）
+    * 内存占用
 
 ## 设计模式
 * 单例模式（重点）
@@ -179,7 +185,7 @@
 ## 前端篇
 * 原生获取 DOM 节点，属性
 * 盒子模型
-* CSS 文件、<style> 标签、行内 style 属性优先级
+* CSS 文件、style 标签、行内 style 属性优先级
 * HTML 与 JS 运行顺序（页面 JS 从上到下）
 * JS 数组操作
 * 类型判断
@@ -207,6 +213,7 @@
     * keep-alive
     * CSS 在头部，JS 在尾部的优化（原理）
 
+
 ## 网络篇
 
 * IP 地址转 INT
@@ -231,7 +238,7 @@
 
 * RESTful 是什么
 * 如何在不支持 `DELETE` 请求的浏览器上兼容 `DELETE` 请求
-* 常见的 app_id、app_secret 主要作用是什么？阐述下流程 
+* 常见 API 的 `APP_ID` `APP_SECRET` 主要作用是什么？阐述下流程 
 * API 请求如何保证数据不被篡改？
 * JSON 和 JSONP 的区别
 * 数据加密和验签的区别
