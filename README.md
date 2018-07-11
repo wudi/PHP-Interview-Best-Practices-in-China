@@ -207,3 +207,11 @@
     * 静态资源延迟加载技术、预加载技术
     * keep-alive
     * CSS 在头部，JS 在尾部的优化（原理）
+
+## 加分项
+* 了解常用语言特性，及不同场景适用性。
+   * PHP VS Golang
+   * PHP VS Python
+   * PHP VS JAVA
+
+
