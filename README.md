@@ -41,7 +41,9 @@
 * 如何异步执行命令
 * 模板引擎是什么，解决什么问题、实现原理（Smarty、Twig、Blade）
 * 如何实现链式操作 `$obj->w()->m()->d();`
-* Xhprof 、Xdebug 性能排除工具使用
+* Xhprof 、Xdebug 性能调试工具使用
+* 索引数组 `[1, 2]` 与关联数组 `['k1'=>1, 'k2'=>2]` 有什么区别
+* 依赖注入原理
 
 ## 实践篇
 * 给定二维数组，根据某个字段排序
@@ -66,11 +68,11 @@
 
 ## 对比篇
 * Cookie 与 Session 区别
-* GET 与 POST 区别
-* include 与 require 区别
-* include_once 与 require_once 区别
+* `GET` 与 `POST` 区别
+* `include` 与 `require` 区别
+* `include_once` 与 `require_once` 区别
 * Memcached 与 Redis 区别
-* MySQL 各个存储引擎、及区别（一定会问  MyISAM 与 Innodb 区别）
+* MySQL 各个存储引擎、及区别（一定会问 MyISAM 与 Innodb 区别）
 * HTTP 与 HTTPS 区别
 * Apache 与 Nginx 区别
 * define() 与 const 区别
@@ -82,14 +84,14 @@
     * CRUD
     * JOIN、LEFT JOIN 、RIGHT JOIN、INNER JOIN
     * UNION
-    * GROUP BY + COUNT +WHERE 组合案例
-    * 常用 MySQL 函数，如：now、md5、concat、uuid 等
-    * 1:1、1:n、n:n 各自适用场景
+    * GROUP BY + COUNT + WHERE 组合案例
+    * 常用 MySQL 函数，如：now()、md5()、concat()、uuid()等
+    * `1:1`、`1:n`、`n:n` 各自适用场景
     * 数据库优化手段
         * 索引、联合索引（命中条件）
-        * 分库分表
+        * 分库分表（`水平分表`、`垂直分表`）
         * 分区
-        * 会使用 explain 分析 SQL 问题，了解各参数含义
+        * 会使用 `explain` 分析 SQL 性能问题，了解各参数含义
         * Slow Log（有什么用，什么时候需要）
 * MSSQL(了解)
     * 查询最新5条数据
@@ -151,8 +153,8 @@
 * 单例模式（重点）
 * 工厂模式（重点）
 * 观察者模式（重点）
-* 装饰器模式
 * 依赖注入（重点）
+* 装饰器模式
 * 代理模式
 * 组合模式
 
@@ -161,17 +163,17 @@
 * XSS 与 CXRF
 * 输入过滤
 * Cookie 安全
-* 禁用 mysql_ 系函数
+* 禁用 `mysql_` 系函数
 * 数据库存储用户密码时，应该是怎么做才安全
 * 验证码 Session 问题
-* 安全的 SESSION ID （让即使拦截后，也无法模拟使用）
+* 安全的 Session ID （让即使拦截后，也无法模拟使用）
 * 目录权限安全
 * 包含本地与远程文件
-* 文件上传脚本
-* eval 函数执行脚本
-* disable_functions 关闭高位函数
-* FPM 独立用户与组，目录特定权限
-* 了解 hash 与 encrypt 区别
+* 文件上传 PHP 脚本
+* `eval` 函数执行脚本
+* `disable_functions` 关闭高危函数
+* FPM 独立用户与组，给每个目录特定权限
+* 了解 Hash 与 Encrypt 区别
 
 ## 高阶篇
 * PHP 数组底层实现 （HashTable + Linked list）
@@ -232,7 +234,7 @@
 * HTTPS 是怎么保证安全的？
 * 流与数据报的区别
 * 进程间通信几种方式，最快的是哪种？
-* fork 会发生什么？
+* `fork()` 会发生什么？
 
 ## API 篇
 
