@@ -165,7 +165,7 @@
 
 ## 安全篇
 * SQL 注入
-* XSS 与 CXRF
+* XSS 与 CSRF
 * 输入过滤
 * Cookie 安全
 * 禁用 `mysql_` 系函数
