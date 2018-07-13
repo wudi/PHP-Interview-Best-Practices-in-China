@@ -14,18 +14,18 @@
 * 准备学 PHP，但不知道领域有多深
 
 ## 基础篇
-* 了解大部分数组处理函数
-* 字符串处理函数（区别 mb_ 系列函数）
-* & 引用，结合案例分析
-* == 与 === 区别
-* isset 与 empty 区别
-* 全部魔术函数理解
-* static、$this、self 区别
+* [了解大部分数组处理函数](http://php.net/manual/zh/ref.array.php)
+* [字符串处理函数](http://php.net/manual/zh/ref.strings.php)  [区别 mb_ 系列函数](http://php.net/manual/zh/book.mbstring.php)
+* [& 引用，结合案例分析](https://secure.php.net/manual/zh/language.references.php)
+* [== 与 === 区别](https://stackoverflow.com/questions/80646/how-do-the-php-equality-double-equals-and-identity-triple-equals-comp)
+* [isset 与 empty 区别](https://stackoverflow.com/questions/1219542/in-where-shall-i-use-isset-and-empty)
+* [全部魔术函数理解](http://php.net/manual/zh/language.oop5.magic.php)
+* [static、$this、self 区别](https://stackoverflow.com/questions/4718808/php-can-static-replace-self)
 * private、protected、public、final 区别
 * OOP 思想
 * 抽象类、接口 分别使用场景
-* Trait 是什么东西
-* echo、print、print_r 区别
+* [Trait 是什么东西](http://php.net/manual/zh/language.oop5.traits.php)
+* [echo、print、print_r 区别(区分出表达式与语句的区别)](https://stackoverflow.com/questions/1647322/whats-the-difference-between-echo-print-and-print-r-in-php)
 * __construct 与 __destruct 区别
 * static 作用（区分类与函数内）
 * __toString() 作用
@@ -97,7 +97,7 @@
     * JOIN、LEFT JOIN 、RIGHT JOIN、INNER JOIN
     * UNION
     * GROUP BY + COUNT + WHERE 组合案例
-    * 常用 MySQL 函数，如：now()、md5()、concat()、uuid()等
+    * [常用 MySQL 函数，如：now()、md5()、concat()、uuid()等](https://www.w3schools.com/sql/sql_ref_mysql.asp)
     * `1:1`、`1:n`、`n:n` 各自适用场景
     * 了解触发器是什么，说个使用场景
     * 数据库优化手段
