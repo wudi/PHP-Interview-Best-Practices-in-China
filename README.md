@@ -42,12 +42,24 @@
 * [如何函数化对象 `$obj(123);`](http://php.net/manual/en/language.oop5.magic.php#object.invoke)
 * yield 是什么，说个使用场景 [yield](https://www.oschina.net/translate/cooperative-multitasking-using-coroutines-in-php)
 * [PSR 是什么，PSR-1, 2, 4, 7](http://psr.phphub.org/)
-* 如何获取[客户端 IP](https://stackoverflow.com/questions/3003145/how-to-get-the-client-ip-address-in-php) 和 [服务端 IP](https://stackoverflow.com/questions/5800927/how-to-identify-server-ip-address-in-php) 地址
+* 如何获取客户端 IP 和服务端 IP 地址
+    * [客户端 IP](https://stackoverflow.com/questions/3003145/how-to-get-the-client-ip-address-in-php)    
+    * [服务端 IP](https://stackoverflow.com/questions/5800927/how-to-identify-server-ip-address-in-php)
+    * 了解代理透传 实际IP 的概念
 * 如何开启 PHP 异常提示
-* 如何返回一个301重定向
+    * php.ini 开启 `display_errors` 设置 `error_reporting` 等级
+    * 运行时，使用 `ini_set(k, v);` 动态设置
+* [如何返回一个301重定向](https://stackoverflow.com/questions/7324645/php-header-redirect-301-what-are-the-implications) 
+    * **[WARNING]** 一定当心设置 301 后脚本会继续执行，不要认为下面不会执行，必要时使用 `die` or `exit`
 * 如何获取扩展安装路径
+    * `phpinfo();` 页面查找 `extension_dir`
+    * 命令行 `php -i |grep extension_dir`
+    * 运行时 `echo init_get('extension_dir');`
 * 字符串、数字比较大小的原理，注意 0 开头的8进制、0x 开头16进制
+    * 字符串比较大小，从左(高位)至右，逐个字符 ASCII 比较
 * BOM 头是什么，怎么除去
+    * `0xEF`,`0xBB`,`0xBF`
+    * [检测、去除](https://stackoverflow.com/questions/10290849/how-to-remove-multiple-utf-8-bom-sequences-before-doctype)
 * 什么是 MVC 
 * 依赖注入实现原理
 * 如何异步执行命令
