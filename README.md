@@ -26,23 +26,23 @@
 * 抽象类、接口 分别使用场景
 * [Trait 是什么东西](http://php.net/manual/zh/language.oop5.traits.php)
 * [echo、print、print_r 区别(区分出表达式与语句的区别)](https://stackoverflow.com/questions/1647322/whats-the-difference-between-echo-print-and-print-r-in-php)
-* __construct 与 __destruct 区别
-* static 作用（区分类与函数内）
-* __toString() 作用
-* 单引号`'`与双引号`"`区别
-* 常见 HTTP 状态码，分别代表什么含义
-* 301 什么意思 404 呢
+* [__construct 与 __destruct 区别](http://php.net/manual/zh/language.oop5.decon.php)
+* static 作用（区分类与函数内）[手册](http://php.net/manual/zh/language.oop5.static.php) 、[SOF](https://stackoverflow.com/questions/7508284/static-variables-in-php)
+* [__toString() 作用](http://php.net/manual/en/language.oop5.magic.php#object.tostring)
+* [单引号`'`与双引号`"`区别](https://stackoverflow.com/questions/3446216/what-is-the-difference-between-single-quoted-and-double-quoted-strings-in-php#answer-3446286)
+* [常见 HTTP 状态码，分别代表什么含义](https://zh.wikipedia.org/wiki/HTTP%E7%8A%B6%E6%80%81%E7%A0%81)
+* [301](https://zh.wikipedia.org/wiki/HTTP_301) 什么意思 [404](https://zh.wikipedia.org/wiki/HTTP_404) 呢?
 
 ## 进阶篇
-* Autoload、Composer 原理
+* Autoload、Composer 原理 [PSR-4](https://laravel-china.org/topics/2081/psr-specification-psr-4-automatic-loading-specification) 、[原理](https://segmentfault.com/a/1190000014948542)
 * Session 共享、存活时间
 * 异常处理
-* 如何 foreach 迭代对象
-* 如何数组化操作对象 $obj[key]
-* 如何函数化对象 $obj(123);
-* yield 是什么，说个使用场景
-* PSR 是什么，PSR-1, 2, 4, 7
-* 如何获取客户端 IP 和 服务端 IP 地址
+* [如何 foreach 迭代对象](https://secure.php.net/manual/zh/class.iterator.php)
+* [如何数组化操作对象 `$obj[key];`](https://secure.php.net/manual/zh/class.arrayaccess.php)
+* [如何函数化对象 `$obj(123);`](http://php.net/manual/en/language.oop5.magic.php#object.invoke)
+* yield 是什么，说个使用场景 [yield](https://www.oschina.net/translate/cooperative-multitasking-using-coroutines-in-php)
+* [PSR 是什么，PSR-1, 2, 4, 7](http://psr.phphub.org/)
+* 如何获取[客户端 IP](https://stackoverflow.com/questions/3003145/how-to-get-the-client-ip-address-in-php) 和 [服务端 IP](https://stackoverflow.com/questions/5800927/how-to-identify-server-ip-address-in-php) 地址
 * 如何开启 PHP 异常提示
 * 如何返回一个301重定向
 * 如何获取扩展安装路径
