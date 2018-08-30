@@ -54,7 +54,7 @@
 * 如何获取扩展安装路径
     * `phpinfo();` 页面查找 `extension_dir`
     * 命令行 `php -i |grep extension_dir`
-    * 运行时 `echo init_get('extension_dir');`
+    * 运行时 `echo ini_get('extension_dir');`
 * 字符串、数字比较大小的原理，注意 0 开头的8进制、0x 开头16进制
     * 字符串比较大小，从左(高位)至右，逐个字符 ASCII 比较
 * BOM 头是什么，怎么除去
